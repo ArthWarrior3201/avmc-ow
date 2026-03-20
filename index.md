@@ -1,4 +1,4 @@
-# AVMC OW Gallery
+
 
 ![Image 1](ChatGPT Image Oct 22, 2025, 10_04_50 PM.png)
 ![Image 2](Gemini_Generated_Image_ammuevammuevammu.png)
