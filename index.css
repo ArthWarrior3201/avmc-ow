@@ -1,22 +1,26 @@
-/* Page background (fills all empty space) */
-body {
+/* FORCE RESET */
+* {
   margin: 0;
-  background-color: skyblue; /* 🔥 your fill color */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Markdown-style container */
-.markdown-body {
+/* Background (this WILL show now) */
+body {
+  background: linear-gradient(to right, #87ceeb, #98fb98);
+  font-family: Arial, sans-serif;
+}
+
+/* Center container */
+.page {
   max-width: 900px;
   margin: 40px auto;
-  padding: 20px;
 }
 
 /* Images */
-.markdown-body img {
+.page img {
+  width: 85%;         /* not full = no aggressive stretch */
   display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 16px auto;
-  border-radius: 6px;
+  margin: 20px auto;  /* center each image */
+  border-radius: 10px;
 }
