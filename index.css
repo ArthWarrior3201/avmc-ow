@@ -1,19 +1,19 @@
-/* Page background */
+/* Page background like GitHub */
 body {
   margin: 0;
-  background-color: #0d1117; /* GitHub dark */
+  background-color: #0d1117; /* dark mode GitHub */
   color: #c9d1d9;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Main container */
+/* Markdown container */
 .markdown-body {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
 }
 
-/* Images */
+/* Images like README */
 .markdown-body img {
   display: block;
   max-width: 100%;
