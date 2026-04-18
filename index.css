@@ -1,24 +1,36 @@
-/* Page background (visible on sides) */
-body {
+/* Reset everything */
+html, body {
   margin: 0;
-  background: linear-gradient(to right, #87ceeb, #98fb98); /* sky blue → light green */
+  padding: 0;
+  width: 100%;
+  background: linear-gradient(to right, #87ceeb, #98fb98); /* sky → light green */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Container */
-.markdown-body {
-  max-width: 900px;        /* controls image stretch */
-  margin: 40px auto;       /* centers block */
-  padding: 20px;
-  background: transparent; /* IMPORTANT: don’t cover gradient */
+/* Make ALL sections full width */
+section, div {
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* Images */
-.markdown-body img {
+/* Remove side gaps from images */
+img {
   display: block;
-  width: 85%;              /* 🔥 key: NOT full width */
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  margin: 20px auto;       /* center each image */
-  border-radius: 8px;
+}
+
+/* If you have containers/cards */
+.container, .card, .markdown-body {
+  max-width: 100%;
+  margin: 0;        /* 🔥 removes side white space */
+  padding: 0;
+  background: transparent;
+}
+
+/* Optional: keep content centered but background full */
+.inner {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
