@@ -1,23 +1,23 @@
-/* Reset */
-html, body {
+/* Page background like GitHub */
+body {
   margin: 0;
-  padding: 0;
+  background-color: #0d1117; /* dark mode GitHub */
+  color: #c9d1d9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Container */
-.stack {
-  width: 100%;
-  max-width: 900px;   /* 🔥 controls how "big" images feel */
-  margin: 0 auto;     /* centers like GitHub */
-  padding: 10px;
+/* Markdown container */
+.markdown-body {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
-/* Images */
-.stack img {
-  width: 100%;
-  height: auto;       /* keeps original ratio */
+/* Images like README */
+.markdown-body img {
   display: block;
-  margin-bottom: 16px;
-
-  border-radius: 8px; /* optional: looks clean */
+  max-width: 100%;
+  height: auto;
+  margin: 16px auto;
+  border-radius: 6px;
 }
