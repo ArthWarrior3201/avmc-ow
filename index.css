@@ -4,15 +4,17 @@ html, body {
   padding: 0;
 }
 
-/* Container (no grid anymore) */
-.grid {
+/* IMPORTANT: no grid */
+.stack {
   display: block;
   width: 100%;
+  max-width: 900px;   /* optional GitHub-like width */
+  margin: 0 auto;     /* center it */
 }
 
 /* Images */
-.grid img {
-  width: 100%;        /* full width like GitHub */
-  height: auto;       /* keeps original ratio */
-  display: block;     /* removes gaps */
+.stack img {
+  width: 100%;
+  height: auto;       /* no distortion */
+  display: block;
 }
